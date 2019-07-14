@@ -3,6 +3,13 @@
 只为了体验构建 React 同构, 不打算弄成可用的脚手架.  
 真实项目里还是使用 [nextjs](https://nextjs.org/) 这种成熟的 SSR 框架
 
+## 启动
+```bash
+npm install
+npm run run-all
+```
+
+## TODO
 - [x] 路由
 - [ ] 脱水, 注水
 

@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src/server/index.js -d server-build",
     "client": "webpack --watch",
     "start": "npm run build && nodemon src/server/index.js",
     "server": "webpack --config webpack.server.config.js --watch",
     "start:server": "nodemon server-build/index.js",
-    "run-all": "run-s client server start:server"
+    "run-all": "run-p client server start:server"
   },
   "author": "",
   "license": "ISC",
